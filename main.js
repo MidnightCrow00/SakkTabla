@@ -1,40 +1,16 @@
-import { tablazatbaHelyezes } from "./fuggveny.js";
-import { BABUK } from "./adatok.js";
+import {tablaAlapHelyzet, tablaMozgas } from "./fuggveny.js";
+import { BABUK, mozgasok } from "./adatok.js";
 
 const figuraElem = document.querySelector(".tarolo");
-figuraElem.innerHTML = tablazatbaHelyezes(BABUK);
+figuraElem.innerHTML = tablaAlapHelyzet(BABUK);
+
+const mozgasElem = document.querySelector(".tarolo");
+mozgasElem.innerHTML = tablaMozgas(mozgasok);
+
+const cimElem = document.querySelector(".cim");
+cimElem.innerHTML = "<h1>Sakktábla</h1>";
+
+const szovegElem = document.querySelector(".kiiras");
+szovegElem.innerHTML = "<h2>Lépések:</h2>";
 
 
-/*
-//elemek elérése
-
-document.getElementByID("idvelmegadottnev")
-
-doucument. querySelectorAll("tetszolegesCssSzelector")[index]
-
-document.getElementsByClassName("classnevvelmegadottnev")[0]
-
-
-
-//eseménykezelők regisztrálása
-
- 
-elemnev. addEventListener("click",fvenynev)
-
-
-elemnev.style.border="1px solid gray"
-
-elemnev.className="cssosztalynev"
-
-
-//eseménykezelő(A figurával a megfelelő helyre lépni.)
-for (let index = 0; index < kiskepElemek.length; index++) {
-    kiskepElemek[index].addEventListener("click", katt)
-    
-}
-
-function katt(event){
-    console.log(event.target.src)
-    nagykepImg.src = event.target.src
-}
-*/
