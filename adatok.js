@@ -52,34 +52,6 @@ export const BABUK = [
         figura: "&#9820;",
     },
 ];
-export const mozgasok = {
-    gyalog: (keresztbenVanEloette) => {
-        if (keresztbenVanEloette) {
-            return [{ x: 1, y: 1 }, { x: -1, y: 1 }]; 
-        } else {
-            return [{ x: 0, y: 1 }]; 
-        }
-    },
-    huszar: () => {
-        return [{ x: 2, y: 1 }, { x: 1, y: 2 }, { x: -1, y: 2 }, { x: -2, y: 1 }, { x: -2, y: -1 }, { x: -1, y: -2 }, { x: 1, y: -2 }, { x: 2, y: -1 }]; 
-    },
-    kiraly: (keresztbenVanEloette) => {
-        if (keresztbenVanEloette) {
-            return [{ x: 1, y: 1 }, { x: -1, y: 1 }]; 
-        } else {
-            return [{ x: 0, y: 1 }]; 
-        }
-    },
-    kiralyno: () => {
-        return [{ x: 1, y: 1 }, { x: -1, y: 1 }, { x: 0, y: 1 }, { x: 1, y: -1 }, { x: -1, y: -1 }, { x: 0, y: -1 }, { x: 1, y: 0 }, { x: -1, y: 0 }]; 
-    },
-    futo: () => {
-        return [{ x: 1, y: 1 }, { x: -1, y: 1 }, { x: 1, y: -1 }, { x: -1, y: -1 }]; 
-    },
-    bastya: () => {
-        return [{ x: 0, y: 1 }, { x: 0, y: -1 }, { x: 1, y: 0 }, { x: -1, y: 0 }]; 
-    },
-};
 
 
 

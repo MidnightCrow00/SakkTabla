@@ -35,7 +35,7 @@ export function tablaAlapHelyzet(LISTA) {
             }
 
 
-            txt += `<td class='${cellaSzine}' onclick="kattintas()">${figurahelyzet}</td>`;
+            txt += `<td class='${cellaSzine}'">${figurahelyzet}</td>`;
         }
 
     
@@ -54,6 +54,4 @@ export function tablaAlapHelyzet(LISTA) {
     txt += "</table>";
     return txt;
 }
-export function tablaMozgas(mozgasok) {
- 
-}
+
