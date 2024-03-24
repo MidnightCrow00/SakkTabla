@@ -1,4 +1,4 @@
-import {tablaAlapHelyzet, tablaMozgas } from "./fuggveny.js";
+import {tablaAlapHelyzet } from "./fuggveny.js";
 import { BABUK } from "./adatok.js";
 
 const figuraElem = document.querySelector(".tarolo");
