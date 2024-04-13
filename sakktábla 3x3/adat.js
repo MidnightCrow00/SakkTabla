@@ -1,32 +1,20 @@
 export const babuLista = [
     {
-        babu: "♙",
-       nev: "egyes",
-       tulajdonsag: "fehér gyalog",  
+        babu: "♙", sor:1, oszlop:1,
     },
     {
-        babu: "♙",
-        nev: "kettes",
-        tulajdonsag: "fehér gyalog",
+        babu: "♙",  sor:1, oszlop:2,
     },
     {
-        babu: "♙",
-        nev: "hármas",
-        tulajdonsag: "fehér gyalog",
+        babu: "♙",  sor:1, oszlop:3,
     },
     {
-        babu: "♟️",
-        nev: "négyes",
-        tulajdonsag: "fekete gyalog",
+        babu: "♟️",  sor:3, oszlop:1,
     },
     {
-        babu: "♟️",
-        nev: "ötös",
-        tulajdonsag: "fekete gyalog",
+        babu: "♟️",  sor:3, oszlop:2,
     },
     {
-        babu: "♟️",
-        nev: "hatos",
-        tulajdonsag: "fekete gyalog",
+        babu: "♟️",  sor:3, oszlop:3,
     },
 ]

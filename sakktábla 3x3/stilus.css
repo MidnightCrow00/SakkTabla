@@ -1,0 +1,23 @@
+.sakktabla {
+    border-collapse: collapse;
+    width: 500px;
+    height: 500px;
+    background-color: #FFFFFF; /* Fehér háttér */
+}
+.sakktabla table {
+    width: 100%;
+    height: 100%;
+}
+
+.sakktabla td {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 60px;
+}
+
+.sakktabla tr:nth-child(odd) td:nth-child(even),
+.sakktabla tr:nth-child(even) td:nth-child(odd) {
+    background-color: #D3D3D3; 
+}
